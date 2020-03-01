@@ -9,4 +9,3 @@ class Kid
   end
 end
 
-Kid.metadata
