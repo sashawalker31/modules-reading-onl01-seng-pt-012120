@@ -9,4 +9,3 @@ class Dancer
   end
 end
 
-Dancer.metadata
