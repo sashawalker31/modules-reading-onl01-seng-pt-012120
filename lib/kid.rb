@@ -8,3 +8,5 @@ class Kid
     @name = name
   end
 end
+
+Kid.metadata
