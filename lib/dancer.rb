@@ -1,5 +1,5 @@
 class Dancer
-  #include Dance       #=> "include" - These are instance methods
+  include Dance       #=> "include" - These are instance methods
   extend MetaDancing  #=> "extend"  - These are class methods
   include FancyDance::InstanceMethods
   extend FancyDance::ClassMethods
@@ -8,3 +8,5 @@ class Dancer
     @name = name
   end
 end
+
+Dancer.metadata
